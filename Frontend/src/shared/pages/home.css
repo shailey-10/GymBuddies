@@ -1,0 +1,32 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/img/hero.jpg');
+    background-size: cover;
+}
+
+.hero-contents{
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+   
+}
+
+.hero-contents h1{
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.hero-contents h4{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.hero-contents Button{
+    margin-left: 180px;
+}
